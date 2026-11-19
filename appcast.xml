@@ -1,8 +1,21 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Poppy MagicBox</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Thu, 19 Nov 2026 11:45:48 +0100</pubDate>
+            <link>https://macpoppy.com/magicbox/</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Poppy MagicBox now checks for standalone updates in the background by default. The app menu lets you turn automatic checks on or off and choose whether to install updates automatically. Existing Sparkle preferences are preserved.
+]]></description>
+            <enclosure url="https://github.com/aantich/poppymagicbox-releases/releases/download/v0.1.2/Poppy-MagicBox-0.1.2-4.dmg" length="2430757" type="application/octet-stream" sparkle:edSignature="aJJ+vf52o46EWlzpRR9GbyiuPHBK2fldBzL2hTVLHYT9Zxxu7RcGAQaoH8jBkiKNQyCPddZ/sL9kW4PeeHX4Ag=="/>
+        </item>
         <item>
             <title>0.1.1</title>
             <pubDate>Thu, 19 Nov 2026 11:36:01 +0100</pubDate>
@@ -19,10 +32,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Open the DMG, drag Poppy MagicBox to Applications, then open it from Applications. If you already have a standalone build without automatic update support, install this DMG once to receive future updates through Sparkle.
 ]]></description>
-            <enclosure url="https://github.com/aantich/poppymagicbox-releases/releases/download/v0.1.1/Poppy-MagicBox-0.1.1-3.dmg" length="2428382" type="application/octet-stream" sparkle:edSignature="ysC/4t3VeBBK/dB9hbM0tS93l88lwIqK8lZQCcwkCVU6PvtYW9MLFGc7QySV1eXhkB+ftoBlDYZ2nTfMp2OdAA=="></enclosure>
+            <enclosure url="https://github.com/aantich/poppymagicbox-releases/releases/download/v0.1.1/Poppy-MagicBox-0.1.1-3.dmg" length="2428382" type="application/octet-stream" sparkle:edSignature="ysC/4t3VeBBK/dB9hbM0tS93l88lwIqK8lZQCcwkCVU6PvtYW9MLFGc7QySV1eXhkB+ftoBlDYZ2nTfMp2OdAA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: POwA9gqJtRqHfWMWmrFrfjxjqD/ReToCRip9/J5bLm95uSdj69dwgycb6SpjgexmO7hOb5/rfwSFa1RpAJ4OBg==
-length: 1858
+</rss>
+<!-- sparkle-signatures:
+edSignature: rSgRw8KuKWnkqQq/kqlVJF1UtAsCAEwk+e45vvTHw4GfEPKZJ5Y2VOWui8bXjGo9uvHABztbeHE8LfP59c53Dw==
+length: 2836
 -->
